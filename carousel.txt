@@ -1,0 +1,112 @@
+<section class="slider_gallery">
+
+                <div class="slider">
+                    <div class="slider_item">
+                        <img src="../icons/glass.png" alt="glass">
+                    </div>
+                    <div class="slider_item">
+                        <img src="../icons/glass.png" alt="glass">
+                    </div>
+                    <div class="slider_item">
+                        <img src="../icons/glass.png" alt="glass">
+                    </div>
+                    <div class="slider_item">
+                        <img src="../icons/glass.png" alt="glass">
+                    </div>
+                    <div class="slider_item">
+                        <img src="../icons/glass.png" alt="glass">
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                <div class="swiper_container">
+                    <div class="project__prev left">
+                        <img src="../icons/leftbtn.png">
+                      </div>
+
+                      <div class="slider_number ">
+                        0 <span class="num">1</span> -05
+                      </div>
+
+                      <div class="project__next right">
+                        <img src="../icons/rightbtn.png">
+                      </div>
+                </div>
+            </div>
+            </section>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick/slick.css"/>
+
+<link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick-theme.css"/>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../scriptjs/slick.min.js"></script>
+<script src="../scriptjs/script.js"></script>
+<script src="../scriptjs/slidernum.js"></script>
+
+
+
+
+
+
+
+
+
+
+/*styling slider*/
+.slider_gallery{
+    margin-top: 143px;
+
+      
+    .slider{
+        max-width:1920px;margin: 20px auto;
+        
+       } 
+       .project__next img, .project__prev img{
+         width: 60px;
+         height:47px;
+       }
+       img {
+         max-width: 1000px;
+         width: 100%;
+         border:1px solid #fff;
+       
+       }
+       .slick-slide {
+       padding-top:20px;
+       }
+       .slick-center {
+         padding-top:0;
+         
+       }
+       .slick-center img {
+         max-width:1102px;
+       }
+       .slider_item{
+           margin-right: 80px !important;
+           
+       }
+       .swiper_container{
+           margin-top: 44px;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+
+
+        .slider_number{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 200;
+            font-size: 81px;
+            line-height: 95px;
+            color: #C1A483;
+     }
+       }
+
+     
+}
